@@ -116,5 +116,5 @@ class HistoricalPerformance(models.Model):
     def __str__(self):
         return f"{self.vendor.name} - {self.date}"
 
-    class Meta:
-        unique_together = ['vendor', 'date']
+    # class Meta:
+    #     unique_together = ['vendor', 'date']
